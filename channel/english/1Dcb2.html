@@ -1,0 +1,30 @@
+
+<html><head></head><body><script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js"></script>
+
+<div id="oper"></div>
+
+<div id="vid"></div>
+
+<script>
+var player = new Clappr.Player({
+  // Pin-hole style camera - add ?hi or ?lo to explicitly pick a stream
+  //source: 'https://jcu.io/hls/22409771-b422-b681-4fa1-3ea80b70ca1b.m3u8',
+
+  // Tank camera - add ?hi or ?lo to explicitly pick a stream
+  source: 'https://docubaylivestreams.akamaized.net/526a07ab-6ae7-4b6c-84a1-159791416484_1000004370_HLS/manifest.m3u8',
+  maxBufferLength: 30,
+  autoPlay: true,
+  parentId: '#player',
+  width: '100%',
+  height: '100%',
+  mute: true,
+  hideVolumeBar: true,
+  autoPlayVisible: 'partial',
+  watermark: 'https://cdn.jcu.edu.au/1.0.0-beta.1/images/jcua-logo-mono-reversed.svg',
+  position: 'bottom-right',
+  watermarkLink: 'https://www.jcu.edu.au/'
+})
+</script>
+<h3 style="text-align: left;"><span style="font-family: Lateef; font-size: large;"><a href="https://www.furqancorbin.eu.org" target="_blank">More Live Channel</a></span></h3>
